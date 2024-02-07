@@ -3,7 +3,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 // 获取API密钥
 const API_KEY =
-  process.env.GEMINI_API_KEY || "AIzaSyCUczeFUpFdTzMvBfFbV6fCoz6Z5KNAKho";
+  process.env.GEMINI_API_KEY || "";
 
 if (!API_KEY) {
   throw new Error(
